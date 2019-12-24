@@ -4,7 +4,7 @@
 #include <queue>
 
 /* const int COMPLETION_BONUS = 10.0f; */
-const int POSITIVE_REWARD = 1.0f;
+const float POSITIVE_REWARD = 0.2f;
 
 const int FISH = 2;
 
