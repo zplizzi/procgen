@@ -128,12 +128,12 @@ void images_load() {
             "water_backgrounds",
             {
                 "water_backgrounds/water1.png",
-                "water_backgrounds/water2.png",
-                "water_backgrounds/water3.png",
-                "water_backgrounds/water4.png",
-                "water_backgrounds/underwater1.png",
-                "water_backgrounds/underwater2.png",
-                "water_backgrounds/underwater3.png",
+                /* "water_backgrounds/water2.png", */
+                /* "water_backgrounds/water3.png", */
+                /* "water_backgrounds/water4.png", */
+                /* "water_backgrounds/underwater1.png", */
+                /* "water_backgrounds/underwater2.png", */
+                /* "water_backgrounds/underwater3.png", */
             },
         },
         {
