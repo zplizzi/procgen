@@ -74,7 +74,7 @@ class ZackBigFish : public BasicAbstractGame {
         options.center_agent = false;
         fish_eaten = 0;
 
-        float start_r = 2;
+        float start_r = 1.5;
 
         /* if (options.distribution_mode == EasyMode) { */
         /*     start_r = 1; */
