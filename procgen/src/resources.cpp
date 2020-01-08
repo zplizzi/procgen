@@ -121,7 +121,7 @@ void images_load() {
         {
             "topdown_simple_backgrounds",
             {
-                "topdown_backgrounds/floortiles.png",
+                "topdown_backgrounds/white.png",
             },
         },
         {
