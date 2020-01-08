@@ -69,6 +69,7 @@ add_library(env
   src/games/starpilot.cpp
   src/games/zack.cpp
   src/games/zackbigfish.cpp
+  src/games/zackchaser.cpp
   src/mazegen.cpp
   src/randgen.cpp
   src/roomgen.cpp

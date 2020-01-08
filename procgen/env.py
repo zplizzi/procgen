@@ -26,6 +26,7 @@ ENV_NAMES = [
     "starpilot",
     "zack",
     "zackbigfish",
+    "zackchaser",
 ]
 
 EXPLORATION_LEVEL_SEEDS = {
