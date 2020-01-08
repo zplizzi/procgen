@@ -27,7 +27,7 @@ const int FISH_QUOTA = 30;
 class ZackBigFish : public BasicAbstractGame {
   public:
     int fish_eaten;
-    float r_inc;
+    /* float r_inc; */
 
     ZackBigFish()
         : BasicAbstractGame() {
@@ -61,8 +61,8 @@ class ZackBigFish : public BasicAbstractGame {
             /* } else { */
               step_data.reward += POSITIVE_REWARD;
               obj->will_erase = true;
-              agent->rx += r_inc;
-              agent->ry += r_inc;
+              /* agent->rx += r_inc; */
+              /* agent->ry += r_inc; */
               fish_eaten += 1;
             /* } */
         }
@@ -76,11 +76,11 @@ class ZackBigFish : public BasicAbstractGame {
 
         float start_r = 1.5;
 
-        if (options.distribution_mode == EasyMode) {
-            start_r = 1;
-        }
+        /* if (options.distribution_mode == EasyMode) { */
+        /*     start_r = 1; */
+        /* } */
 
-        r_inc = (FISH_MAX_R - start_r) / FISH_QUOTA;
+        /* r_inc = (FISH_MAX_R - start_r) / FISH_QUOTA; */
 
         agent->rx = start_r;
         agent->ry = start_r;
